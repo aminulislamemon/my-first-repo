@@ -1,0 +1,72 @@
+.container{
+    height: 100%;
+    width: 1000px;
+    margin: 50px auto 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 5px 20px;
+    background-color: #f66035;
+    border-radius: 10px;
+    font-weight: 600;
+}header>ul{
+   display: flex; 
+}
+header>ul>li{
+    list-style: none;
+    margin: 30px 20px;
+}
+header>ul>li>a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #2c2b2bc5;
+}
+header>ul>li>a:hover{
+    color: #f66035;
+    border-bottom: 3px solid #f66035;
+    transition: all ease 0.5s;
+    
+}
+header{
+    display: flex;
+}
+
+h1{
+   font-size: 2.5rem;
+   font-weight: 700;
+   text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.diffrent{
+    color: #f66035;
+}
+#button{
+    display: inline;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.btn{
+    margin: 0 0 0 20px;
+    padding: 15px 30px;
+    border: 1.5px solid #f66035;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 50px;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #f66035;
+    transition: all ease 0.5s;
+}
